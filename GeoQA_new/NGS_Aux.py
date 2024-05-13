@@ -39,7 +39,7 @@ from mcan import *
 # torch.cuda.manual_seed(seed)
 
 rules = []
-with open('/roberta.pickle', 'rb') as f:
+with open('/DPE-Pretrained.pickle', 'rb') as f:
     bc = pickle.load(f)
 
 def get_kno_mask(src):
